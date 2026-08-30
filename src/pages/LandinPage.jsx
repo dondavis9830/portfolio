@@ -319,18 +319,12 @@ export default function LandinPage() {
             </video>
 
             <div className="flex flex-wrap gap-2 mt-4">
-              <span className="text-base sm:text-xl">
-                Project Name:
-              </span>
+              <span className="text-base sm:text-xl">  Project Name: </span>
 
-              <p className="font-bold text-base sm:text-xl">
-                Power Pulse Gym
-              </p>
+              <p className="font-bold text-base sm:text-xl"> Power Pulse Gym </p>
             </div>
 
-            <p className="mt-2 text-sm sm:text-base">
-              This is a static webpage of a gym.
-            </p>
+            <p className="mt-2 text-sm sm:text-base"> This is a static webpage of a gym. </p>
 
             <a href="https://power-pulse-gym.netlify.app/" className="inline-block mt-3 text-cyan-600 font-semibold" >
               Live Link <i className="fa-solid fa-link"></i>

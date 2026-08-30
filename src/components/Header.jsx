@@ -27,11 +27,7 @@ export default function Header() {
         
         {/* Logo */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8644/8644474.png"
-            className="w-7 sm:w-8 md:w-10"
-            alt="Portfolio icon"
-          />
+          <img  src="https://cdn-icons-png.flaticon.com/128/8644/8644474.png"  className="w-7 sm:w-8 md:w-10" alt="Portfolio icon" />
 
           <h1 className="text-lg sm:text-2xl md:text-4xl font-bold">
             Portfolio
@@ -51,8 +47,6 @@ export default function Header() {
             <li><a href="#projects" className="hover:text-blue-700 transition">Projects</a></li>
 
             <li><a href="#service" className="hover:text-blue-700 transition">Services</a></li>
-
-            <li><Link to={'/gsap'} className="hover:text-blue-700 transition">gsap</Link></li>
 
             <li><a href="#contact" className="rounded-lg bg-orange-300 px-3 py-2 text-sm font-medium hover:bg-orange-400 transition lg:px-4"> Get Free Consultant</a></li>
 
