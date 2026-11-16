@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 export default function LandinPage() {
 
-  const [uerName,setUsername]=useState("")
  
    function send(){
-     alert('message sended')
+     alert('Message Sended....!')
    }
 
   return (
@@ -513,7 +512,7 @@ export default function LandinPage() {
                   <label className="mb-2 block text-sm font-medium"> 
                     Your Name
                   </label>
-                  <input onChange={(e)=>setUsername(e)} type="text" placeholder="Enter your name" className="w-full rounded-lg border border-slate-200 px-4 py-3 outline-none transition focus:border-cyan-500 focus:ring-2 focus:ring-cyan-100"
+                  <input type="text" placeholder="Enter your name" className="w-full rounded-lg border border-slate-200 px-4 py-3 outline-none transition focus:border-cyan-500 focus:ring-2 focus:ring-cyan-100"
                   />
                 </div>
                 <div>
